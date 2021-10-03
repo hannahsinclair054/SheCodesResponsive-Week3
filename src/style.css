@@ -35,9 +35,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-.backcolor {
-  background-color: #ffffff;
-}
 
 .navigation-links {
   display: flex;
@@ -98,4 +95,30 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  h1,
+  .name {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2,
+  .h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .email-link {
+    font-size: 24px;
+  }
 }
