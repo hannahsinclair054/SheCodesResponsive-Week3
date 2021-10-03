@@ -15,6 +15,9 @@ h3 {
   margin: 0;
 }
 
+#aboutmeName,.hi{
+    margin-top: 60px;
+}
 h1,
 .name {
   font-size: 96px;
